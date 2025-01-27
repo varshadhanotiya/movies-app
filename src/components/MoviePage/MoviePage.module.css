@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair:wght@300;400;500;600&display=swap");
+
+.constainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.main {
+  /* width: 100%; */
+  display: flex;
+  gap: 30px;
+  margin: 20px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.35) 50%,
+      rgba(0, 0, 0, 0.75) 100%
+    );
+  padding: 10px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(0, 95, 219);
+  flex-wrap: wrap;
+}
+
+.main img {
+  flex: 1.2;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 5%;
+}
+
+.main .details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px 0;
+  font-family: "Playfair", sans-serif;
+  color: white;
+}
+
+.details .title {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+}
+
+.details .sub {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.details .desc {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.details label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+  font-style: italic;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.similar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 30px;
+}
+
+.similar .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.similar .movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}

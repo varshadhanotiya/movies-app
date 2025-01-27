@@ -1,0 +1,11 @@
+.container {
+  padding: 30px;
+}
+
+.innerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin: 20px;
+}
