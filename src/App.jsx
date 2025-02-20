@@ -9,7 +9,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <Router basename="/movies-app">
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
